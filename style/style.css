@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background: linear-gradient(to right, rgb(143, 6, 235), rgb(255, 255, 255));
+    height: 100%;
+}
+.contenedor-principal{
+  
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  border-style: groove;
+   border-color: rgb(253, 255, 254);
+}
+
+.contenedor-principal.agregar-contacto{
+  size: 20%;
+  width: 10%;
+  height: 10%;
+  max-width: 50%;
+  max-height: 50%;
+  position: absolute;
+
+}
+.boton-agregar{
+  color: #380bfd;
+  background:transparent;
+  border: 2px solid  #0099CC;
+  border-radius: 6px;
+  background-color: grey;
+
+
+}
+.encabezado{
+  text-align: center;
+  color: black;
+  font-size: larger;
+ 
+}
+.listado-contactos{
+  border-style: ridge;
+}
+
+
+
+
